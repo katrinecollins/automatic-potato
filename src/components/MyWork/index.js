@@ -3,6 +3,7 @@ import clipart2 from '../../images/1950-s-housewife-clipart-3.jpg'
 import clipart3 from '../../images/chucks-clipart-17.jpg'
 import clipart4 from '../../images/movie time.jpg'
 import clipart5 from '../../images/cannabis-clipart-19.jpg'
+import clipart6 from '../../images/glasse-clipart-2.jpg'
 
 function MyWork () {
 return (
@@ -21,10 +22,16 @@ return (
                     <img src={clipart4} alt=""/>
                 </a>
             </div>
-            <div id="Workout-Budz class="Workout-Budz>
+            <div id="Workout-Budz" class="Workout-Budz">
                 <h3>Workout Budz</h3>
                 <a href="https://workout-budz.herokuapp.com/login">
                     <img src={clipart5} alt=""/>
+                </a>
+            </div>
+            <div id="Covid Conquerors" class="Covid-Conquerors">
+                <h3>Covid Conquerors</h3>
+                <a href="https://covid-game1.herokuapp.com/">
+                    <img src={clipart6} alt=""/>
                 </a>
             </div>
         </div>
